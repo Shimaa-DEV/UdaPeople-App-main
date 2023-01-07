@@ -122,7 +122,7 @@ jobs:
             npm install
             npm audit fix --force --audit-level=critical
             npm audit fix --force --audit-level=critical
-            #npm audit --audit-level=critical
+            npm audit --audit-level=critical
 
   scan-backend:
     docker:
@@ -141,7 +141,7 @@ jobs:
             npm install
             npm audit fix --force --audit-level=critical
             npm audit fix --force --audit-level=critical
-            npm audit --audit-level=critical
+            #npm audit --audit-level=critical
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
