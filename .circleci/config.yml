@@ -100,7 +100,8 @@ jobs:
       - checkout
       # Restore from cache
       - restore_cache: 
-          keys: [backend-build]
+          keys: 
+            - backend-deps-{{ checksum "backend/package-lock.json" }}
       # Your job code here
       - run: 
           name: Scan Back-end
