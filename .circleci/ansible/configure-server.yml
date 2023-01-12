@@ -19,7 +19,6 @@
       become: true
       apt:
         name: python3
-        update_cache: yes
 
   roles:
     # Your code here
