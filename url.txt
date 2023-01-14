@@ -1,0 +1,20 @@
+ Public Url to GitHub repository (not private)  https://github.com/ayarabih/udapeople.CICD
+****************************
+Public URL for your S3 Bucket
+(https://us-east-1.console.aws.amazon.com/s3/buckets/udapeople-a5a8641?region=us-east-1&tab=objects)
+**********************
+front-end url 
+(https://udapeople-a5a8641.s3.amazonaws.com/index.html#/employees)
+***********************
+cloudfront url 
+(https://d2yjkm5b6ch2sd.cloudfront.net/#/employees)
+***********************
+endpoint for database 
+(postgres.c8vmh98nj70x.us-east-1.rds.amazonaws.com)
+****************************
+url for promesues
+ ((http://ec2-3-87-239-113.compute-1.amazonaws.com:9090//new/targets ))
+********************************
+url with puplic ip
+http://3.87.239.113:9090/new/targets
+*****************************

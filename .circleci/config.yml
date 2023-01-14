@@ -458,7 +458,7 @@ jobs:
                       --stack-status-filter CREATE_COMPLETE --no-paginate --output text)) 
               echo Stack names: "${STACKS[@]}" 
               
-              if [[ "${STACKS[@]}" =~ "${OldWorkflowID}" ]]
+              if [[ "${STACKS[@]}" != "${OldWorkflowID}" ]]
               then
               # your code goes here
                 echo "----------Cleaning Up in progress----------"
