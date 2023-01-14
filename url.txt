@@ -7,7 +7,7 @@ front-end url
 (http://udapeople-3cf2320.s3-website-us-east-1.amazonaws.com/)
 ***********************
 backend url
-(http://http://34.200.115.49:3030/api/status)
+(http://34.200.115.49:3030/api/status)
 ***********************
 cloudfront url 
 (https://d2yjkm5b6ch2sd.cloudfront.net/#/employees)
